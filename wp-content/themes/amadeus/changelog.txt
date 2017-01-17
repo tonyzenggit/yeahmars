@@ -1,0 +1,12 @@
+Changelog
+
+6 June 2015 - 1.03
+--------------------------------------
+- minor change to the credits.
+
+3 June 2015 - 1.02
+--------------------------------------
+- removed extra mobile menu button;
+- moved footer credits inside a function;
+- added options to display/hide featured images;
+- added link in the Customizer for the theme extensions.
