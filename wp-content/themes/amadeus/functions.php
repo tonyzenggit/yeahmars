@@ -290,6 +290,7 @@ function amadeus_footer_credits() {
 	echo '</a>';
 	echo '<span class="sep"> | </span>';
 	printf( __( 'Theme: %2$s by %1$s.', 'amadeus' ), 'Themeisle', '<a href="http://themeisle.com/themes/amadeus/" rel="nofollow">Amadeus</a>' );
+	echo ' | <span><a href="http://zengnx.com">二次开发：Tony Zeng</a></span><span>  | <a href="/wp-admin/">登录后台</a></span>';
 }
 add_action( 'amadeus_footer', 'amadeus_footer_credits' );
 

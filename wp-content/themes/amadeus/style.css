@@ -717,7 +717,7 @@ textarea {
 
 .photo-wrapper {
     display: table;
-    margin: -120px auto 30px;
+    margin: -118px auto 20px;
     padding: 5px;
     border: 1px solid #e0e0e0;
     border-radius: 50%;
@@ -725,7 +725,7 @@ textarea {
 }
 
 .photo-wrapper img {
-    max-height: 180px;
+    max-height: 150px;
     border-radius: 50%;
 }
 
