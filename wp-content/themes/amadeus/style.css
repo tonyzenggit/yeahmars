@@ -24,7 +24,9 @@ body {
     line-height: 1.5;
     word-wrap: break-word;
 }
-
+p{
+    letter-spacing:2px;
+}
 h1,
 h2,
 h3,
@@ -762,7 +764,7 @@ textarea {
     display: inline;
 }
 
-.entry-meta {
+.home .entry-meta {
     text-align: right;
     margin:0 8px 8px 0;
 }
@@ -886,14 +888,21 @@ textarea {
 }
 
 /*--------------------------------------------------------------
-## Asides
+## Format
 --------------------------------------------------------------*/
 
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
     display: none;
 }
-
+.blog .format-image .entry-title,
+.archive .format-image .entry-title {
+    text-align: center;
+}
+.blog .format-image h1,
+.archive .format-image h1 {
+    font-size:20px;
+}
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/

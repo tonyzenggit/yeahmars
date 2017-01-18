@@ -105,7 +105,7 @@ if ( ! function_exists( 'amadeus_posted_on' ) ) :
 				/* translators: used between list items, there is a space after the comma */
 				$categories_list = get_the_category_list( __( ', ', 'amadeus' ) );
 				if ( $categories_list ) {
-					printf( '<span class="cat-links">' . __( '%1$s', 'amadeus' ) . '</span>', $categories_list );
+					printf( '<span class="cat-link">' . $cat . '</span>' );
 				}
 			}
 		}
