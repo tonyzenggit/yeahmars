@@ -98,9 +98,9 @@ if ( ! function_exists( 'amadeus_posted_on' ) ) :
 		);
 
 		if ( ! is_singular() ) {
-			echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span><span class="cat-link">' . $cat . '</span>';
+			echo '<span class="posted-on">' . $posted_on . '</span><span class="cat-link">' . $cat . '</span>';
 		} elseif ( ! get_theme_mod( 'meta_singles' ) ) {
-			echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>';
+			echo '<span class="posted-on">' . $posted_on . '</span>';
 			if ( 'post' == get_post_type() ) {
 				/* translators: used between list items, there is a space after the comma */
 				$categories_list = get_the_category_list( __( ', ', 'amadeus' ) );
