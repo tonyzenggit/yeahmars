@@ -555,7 +555,7 @@ msgstr "相册"
 #: inc/template-tags.php:154
 msgctxt "post format archive title"
 msgid "Asides"
-msgstr "日志"
+msgstr "短文本"
 
 #: inc/template-tags.php:151
 msgctxt "daily archives date format"
