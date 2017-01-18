@@ -21,8 +21,8 @@ get_header(); ?>
 
 				<?php
 					// If comments are open or we have at least one comment, load up the comment template
-					if ( comments_open() || get_comments_number() ) :
-						comments_template();
+				if ( comments_open() || get_comments_number() ) :
+					comments_template();
 					endif;
 				?>
 
@@ -31,9 +31,9 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php 
-	if (!get_theme_mod('hide_sidebar_single')) {
-		get_sidebar();
-	}
+<?php
+if ( ! get_theme_mod( 'hide_sidebar_single' ) ) {
+	get_sidebar();
+}
 ?>
 <?php get_footer(); ?>

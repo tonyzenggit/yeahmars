@@ -1,4 +1,22 @@
 
+### 2.0.2 - 22/12/2016
+**Changes:** 
+- Fix typo in page_fullwidth.php
+
+### 2.0.1 - 21/12/2016
+**Changes:** 
+- Added grunt and fixed all the generated errors
+- Recommend Nivo Slider Lite
+- Compatibility with Nivo Slider Lite plugin
+
+### 2.0.0 - 08/12/2016
+**Changes:** 
+- Update style.css
+
+### 1.2.0 - 08/12/2016
+**Changes:** 
+- Fixed issue with layout in Customize with WordPress 4.7
+
 ### 1.13 - 12/09/2016
 **Changes:** 
 - Added upsell in customize

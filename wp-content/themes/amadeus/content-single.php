@@ -1,5 +1,7 @@
 <?php
 /**
+ * The template part for displaying single posts
+ *
  * @package Amadeus
  */
 ?>
@@ -7,7 +9,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php if ( has_post_thumbnail() && ( get_theme_mod( 'post_feat_image' ) != 1 ) ) : ?>
 		<div class="single-thumb">
-			<?php the_post_thumbnail('amadeus-entry-thumb'); ?>
+			<?php the_post_thumbnail( 'amadeus-entry-thumb' ); ?>
 		</div>	
 	<?php endif; ?>	
 

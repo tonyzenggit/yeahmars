@@ -31,7 +31,7 @@
 		</nav>
 		<?php endif; ?>	
 
-		<?php if (get_theme_mod('menu_position', 'below') == 'above') : ?>
+		<?php if ( get_theme_mod( 'menu_position', 'below' ) == 'above' ) : ?>
 		<nav id="site-navigation" class="main-navigation menu-above" role="navigation">
 			<div class="container">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
@@ -44,11 +44,10 @@
 			<div class="container">
 				<div class="site-branding">
 					<?php
-					if ( function_exists( 'the_custom_logo' ) && ( get_theme_mod('logo_style', 'hide-title') == 'hide-title' ) ) {
+					if ( function_exists( 'the_custom_logo' ) && ( get_theme_mod( 'logo_style', 'hide-title' ) == 'hide-title' ) ) {
 						the_custom_logo();
-					}
-					/* Logo + site title and site description */
-					elseif ( function_exists( 'the_custom_logo' ) && ( get_theme_mod('logo_style', 'hide-title') == 'show-title' ) ) {
+					} /* Logo + site title and site description */
+					elseif ( function_exists( 'the_custom_logo' ) && ( get_theme_mod( 'logo_style', 'hide-title' ) == 'show-title' ) ) {
 						the_custom_logo();
 
 						?>
@@ -57,8 +56,7 @@
 						<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 
 						<?php
-					}
-					/* Only site title and site description */
+					} /* Only site title and site description */
 					else {
 						?>
 						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -69,7 +67,7 @@
 			</div>
 		</div>
 
-		<?php if (get_theme_mod('menu_position', 'below') == 'below') : ?>
+		<?php if ( get_theme_mod( 'menu_position', 'below' ) == 'below' ) : ?>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<div class="container">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
