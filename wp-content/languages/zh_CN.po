@@ -4500,7 +4500,7 @@ msgstr "Y年n月j日"
 #: wp-includes/general-template.php:1483
 msgctxt "post format archive title"
 msgid "Asides"
-msgstr "日志"
+msgstr "短文本"
 
 #: wp-includes/general-template.php:1485
 msgctxt "post format archive title"
@@ -7321,7 +7321,7 @@ msgstr "引语"
 #: wp-includes/post-formats.php:91
 msgctxt "Post format"
 msgid "Aside"
-msgstr "日志"
+msgstr "短文本"
 
 #: wp-includes/post-formats.php:97
 msgctxt "Post format"
