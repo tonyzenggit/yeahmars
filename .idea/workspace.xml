@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df245c59-aafc-4933-9086-564a6c30a5ce" name="Default" comment="" />
+    <list default="true" id="df245c59-aafc-4933-9086-564a6c30a5ce" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="yeahmars.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -66,8 +68,8 @@
       <file leaf-file-name="zh_CN.po" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/languages/zh_CN.po">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="4502" column="8" selection-start-line="4502" selection-start-column="8" selection-end-line="4502" selection-end-column="8" />
+            <state relative-caret-position="271">
+              <caret line="4505" column="8" selection-start-line="4505" selection-start-column="8" selection-end-line="4505" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -101,8 +103,8 @@
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/amadeus/inc/template-tags.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/amadeus/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/languages/zh_CN.po" />
         <option value="$PROJECT_DIR$/wp-content/languages/themes/amadeus-zh_CN.po" />
+        <option value="$PROJECT_DIR$/wp-content/languages/zh_CN.po" />
       </list>
     </option>
   </component>
@@ -348,15 +350,15 @@
       <option name="presentableId" value="Default" />
       <updated>1484708773887</updated>
       <workItem from="1484708775062" duration="643000" />
-      <workItem from="1484737558723" duration="8917000" />
+      <workItem from="1484737558723" duration="9511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9560000" />
+    <option name="totallyTimeSpent" value="10154000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -608,8 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/languages/zh_CN.po">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="4502" column="8" selection-start-line="4502" selection-start-column="8" selection-end-line="4502" selection-end-column="8" />
+        <state relative-caret-position="271">
+          <caret line="4505" column="8" selection-start-line="4505" selection-start-column="8" selection-end-line="4505" selection-end-column="8" />
           <folding />
         </state>
       </provider>
