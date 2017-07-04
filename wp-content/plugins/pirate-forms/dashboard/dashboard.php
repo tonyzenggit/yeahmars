@@ -220,6 +220,7 @@ if ( ! class_exists( 'THEMEISLE_DASHBOARD' ) ) {
 	}
 
 }
+
 if ( ! function_exists( 'themeisle_dashboard_widget' ) ) {
 	/**
 	 * The helper method to run the class
